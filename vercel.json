@@ -1,6 +1,10 @@
 {
   "cleanUrls": true,
   "rewrites": [
+    {"source": "/plonn/privacy", "destination": "/plonn/privacy.html"},
+    {"source": "/plonn/privacy/", "destination": "/plonn/privacy.html"},
+    {"source": "/plonn/support", "destination": "/plonn/support.html"},
+    {"source": "/plonn/support/", "destination": "/plonn/support.html"},
     { "source": "/download", "destination": "/api/download" },
     { "source": "/work", "destination": "/" },
     { "source": "/portfolio", "destination": "/" },

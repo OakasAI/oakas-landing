@@ -1,17 +1,69 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    {"source": "/plonn/privacy", "destination": "/plonn/privacy.html"},
-    {"source": "/plonn/privacy/", "destination": "/plonn/privacy.html"},
-    {"source": "/plonn/support", "destination": "/plonn/support.html"},
-    {"source": "/plonn/support/", "destination": "/plonn/support.html"},
-    { "source": "/download", "destination": "/api/download" },
-    { "source": "/work", "destination": "/" },
-    { "source": "/portfolio", "destination": "/" },
-    { "source": "/process", "destination": "/" },
-    { "source": "/founders", "destination": "/" },
-    { "source": "/team", "destination": "/" },
-    { "source": "/book", "destination": "/" },
-    { "source": "/contact", "destination": "/" }
+    {
+      "source": "/plonn/terms",
+      "destination": "/plonn/terms.html"
+    },
+    {
+      "source": "/plonn/terms/",
+      "destination": "/plonn/terms.html"
+    },
+    {
+      "source": "/plonn/refunds",
+      "destination": "/plonn/refunds.html"
+    },
+    {
+      "source": "/plonn/refunds/",
+      "destination": "/plonn/refunds.html"
+    },
+    {
+      "source": "/plonn/privacy",
+      "destination": "/plonn/privacy.html"
+    },
+    {
+      "source": "/plonn/privacy/",
+      "destination": "/plonn/privacy.html"
+    },
+    {
+      "source": "/plonn/support",
+      "destination": "/plonn/support.html"
+    },
+    {
+      "source": "/plonn/support/",
+      "destination": "/plonn/support.html"
+    },
+    {
+      "source": "/download",
+      "destination": "/api/download"
+    },
+    {
+      "source": "/work",
+      "destination": "/"
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/"
+    },
+    {
+      "source": "/process",
+      "destination": "/"
+    },
+    {
+      "source": "/founders",
+      "destination": "/"
+    },
+    {
+      "source": "/team",
+      "destination": "/"
+    },
+    {
+      "source": "/book",
+      "destination": "/"
+    },
+    {
+      "source": "/contact",
+      "destination": "/"
+    }
   ]
 }
